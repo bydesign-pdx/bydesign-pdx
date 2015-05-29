@@ -1,0 +1,11 @@
+<wpml-config>   
+    <admin-texts>
+        <key name="flatroom_footer_settings">
+            <key name="label_phone" />
+            <key name="label_address" />
+            <key name="label_email">
+        </key>
+    </admin-texts>    
+</wpml-config>
+
+

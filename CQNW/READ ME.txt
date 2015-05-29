@@ -1,0 +1,7 @@
+READ ME
+
+To meet some of the client's requests (remove “number of bathrooms” “number of bedrooms”, as well other custom display options (see code for details), one of the main theme files had to be edited (as per theme author's instructions):
+
+framework/admin/noo-property.php
+
+On update of the theme, check that the added functionality still works, and replace code where needed.

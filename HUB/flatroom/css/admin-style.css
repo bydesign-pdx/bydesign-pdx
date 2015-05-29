@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/* General dropdown styles */       
+.dropdown dd,
+.dropdown dt,
+.dropdown ul {
+	margin: 0;
+	padding: 0;
+	z-index: 100;
+}
+.dropdown dd {
+	position:relative;
+}
+
+.dropdown {
+	margin: 0;
+}
+.dropdown dt {
+	cursor: pointer;
+	display: block;
+	padding-right: 20px;
+	border: 1px solid #dfdfdf;
+	width: 170px;
+}
+.dropdown dt > span {
+  cursor:pointer;
+  padding:5px;
+}
+.dropdown dd ul {
+  background: #ececec;
+  display: none;
+  list-style: none;
+  padding: 0;
+  position: absolute; 
+  left: 0;
+  top: 2px;
+  width: auto;
+  min-width: 170px;
+  height: 175px;
+  overflow-y: scroll;
+}
+.dropdown span.value {
+	display: none;
+}
+.dropdown dd ul li {
+	cursor: pointer;
+	display: block;
+	padding: 5px;
+}
+.dropdown dd ul li:hover {
+	background: #fff;
+}
+.dropdown dd ul li .i-name {
+	font-size: 10px;
+}
+
+/* Social preview */
+#selected-options-preview {
+	max-width: 350px;
+}
+#selected-options-preview li {
+	cursor: move;
+	padding: 2px;
+}
+#selected-options-preview li span {
+	display: inline-block;
+	padding: 7px;
+}
+#selected-options-preview li .btn {
+	float: right;
+}
+.social_preview li > a {
+	background: #333;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	margin: 0 5px 0 0;
+	padding: 4px;
+}
+.social_preview li > a i {
+	color: #777;
+}
+
+/* Input */
+.small-input {
+	width: 50px;
+}
+.login form {
+	display: none;
+}
+
+.homepage-tabs .widget {
+	cursor: move;
+}
+
+#ibr_options_options_form .widefat .options-row,
+#ibr_options_options_form .widefat td {
+	padding: 10px 25px !important;
+}
+#ibr_options_options_form .widefat tr:nth-child(2n) {
+	background: #e1e1e1;
+}
+#ibr_options_options_form .widefat .added-items > li {
+	background: #ccc;
+	cursor: move;
+	margin-left: 0;
+	padding: 5px;
+	position: relative;
+}
+#ibr_options_options_form .widefat .added-items > li .remove {
+	color: #333;
+	height: 14px;
+	margin: -8px -8px 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 14px;
+	font-size: 0;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#ibr_options_options_form .widefat .added-items > li .remove:before {
+	display: block;
+	content: "\f00d";
+	font-size: 16px;
+}
+#ibr_options_options_form .widefat .added-items > li input {
+	margin-top: 0;
+}
+#ibr_options_options_form .widefat .description {
+	font-size: 11px;
+}
+#ibr_options_options_form .widefat .review-title {
+	margin-bottom: 15px;
+}
+label[for="phone_mask_test"] {
+	line-height: 25px;
+	margin: 0 5px;
+}

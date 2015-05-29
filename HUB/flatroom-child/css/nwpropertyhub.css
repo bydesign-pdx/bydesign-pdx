@@ -1,0 +1,253 @@
+
+#page {
+    background-image: url('http://38sxbnkpjjm3gebcwt9s57m4.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/nwprophub_bg.jpg');
+    background-position-y: -100px;
+}
+
+body.home #page {
+	background-position-y: 0px;
+}
+
+#site-header {
+    background: none !important;
+    min-height: 240px !important;
+}
+
+body.home #site-header {
+	min-height: inherit !important;
+}
+
+#main {
+    background: #fff !important;
+    color: #000;
+    top: inherit !important;
+    margin-bottom: -1px !important;
+    padding: 0 !important;
+}
+
+body.home #main {
+	background: none !important;
+	color: #fff;
+	top: 0px !important;
+}
+
+#site-header .logo-box {
+    display: inline;
+}
+
+#site-header .header-icons {
+    display: none;
+    float: none !important;
+    margin: 0 auto;
+    position: relative !important;
+    top: 0px !important;
+    width: 400px;
+}
+
+.home #main #primary, 
+.page-template-page-sidebar-right-php #main #primary {
+    margin-top: 0px !important;
+}
+
+#main .page-header {
+    display: none;
+    margin-bottom: 0px !important;
+}
+
+#content {
+    float: none;
+    margin: 50px auto 50px;
+    text-align: left;
+}
+
+body.home #content {
+	margin: 50px auto 150px;
+	text-align: center;
+}
+
+#content h2 {
+    font-size: 160%;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content h3 {
+	border-bottom: none !important;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+#content p {
+    font-size: 92%;
+}
+
+#content .home_form {
+    width: auto;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+
+.home_form #broker-search {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    float: none;
+}
+
+.home_form #broker-search input[type="text"] {
+    background: #fff url("/wp-content/themes/flatroom-child/images/home-search.png") 9px 50% no-repeat;
+    float: left;
+    display: block;
+    width: 185px;
+    padding-left: 35px;
+    color: #555;
+    border: 0;
+
+}
+
+.home_form #broker-search input[type="submit"] {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    float: left;
+    display: block;
+    width: 44px;
+    font-weight: bold;
+    background: #fff;
+    color: #777;
+    padding: 8px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+#content a.home_apply {
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
+    border: 0;
+    clear: both;
+    color: #777;
+    cursor: pointer;
+    width: 112px;
+    margin: 0 auto;
+    margin-bottom: -7px;
+    font-weight: bold;
+    padding: 8px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#content a.home_email {
+    color: #fff;
+    clear: both;
+    text-align: center;
+    text-decoration: none;
+}
+
+#content a.home_email:hover {
+    text-decoration: none;
+}
+
+#site-footer,
+#site-footer a,
+#site-footer h3 {
+    border-color: #555;
+    color: #555;
+}
+
+#site-footer .top-box {
+    background: #222 !important;
+}
+
+#site-footer .about-us,
+#site-footer .contact-us,
+#site-footer .sidebar {
+    display: none;
+}
+
+#site-footer .container .row {
+    margin-left: 0 !important;
+}
+
+#site-footer .footer-navigation {
+    margin-bottom: 1% !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+#site-footer .footer-navigation .title {
+    display: none;
+}
+
+#site-footer .footer-navigation nav div:first-child {
+    text-align: center;
+    display: table;
+    margin: 15px auto 10px;
+}
+
+#site-footer .footer-navigation nav div:first-child ul {
+    margin: 0;
+    padding: 0;
+    text-align: center !important;
+}
+
+#site-footer .footer-navigation nav div:first-child ul li {
+    border-left: 2px solid #666 !important;
+    display: inline !important;
+}
+
+#site-footer .footer-navigation nav div:first-child ul li:first-child {
+    border-left: none !important;
+}
+
+#site-footer .footer-navigation nav div:first-child ul li a {
+    color: #666 !important;
+    font-size: 17px !important;
+    font-weight: bold;
+    padding: 0 10px 0 15px;
+    text-align: center;
+    text-transform: uppercase !important;
+}
+
+@media (max-width : 520px) {
+    #site-footer .footer-navigation nav div:first-child ul li a {
+        font-size: 11px !important;
+    }
+}
+
+#site-footer .footer-navigation nav div:first-child ul li a:hover {
+
+}
+
+.gform_wrapper label {
+	color: #999;
+}
+
+.gform_wrapper input[type="text"],
+.gform_wrapper textarea {
+	font-size: 90% !important;
+	padding: 20px 10px !important;
+}
+
+.gform_wrapper input[type="submit"],
+.gform_wrapper input[type="file"] {
+	background: #fff;
+	border: 2px solid #ddd;
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 9px 20px 7px;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
+	color: #777;
+	height: auto;
+	font-family: 'fonts/liberation_sansregular', sans-serif!important;
+}
