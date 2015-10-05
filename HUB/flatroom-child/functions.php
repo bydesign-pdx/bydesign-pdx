@@ -83,6 +83,8 @@ add_shortcode( 'hub-products', 'my_products_shortcode' );
 function my_options_shortcode ( $attributes, $content = null )
 {
 	$title = isset($attributes['title']) ? ucwords($attributes['title']) : 'Loan Options';
+	$flatroom_settings = get_option( "flatroom_settings" );
+	$loanLink = $flatroom_settings['agent_apply_url'];
 	$content = isset($content) && $content ? $content : '
 		<p><strong>Purchasing or Refinancing in Oregon, Washington and California? </strong>
 		Look no further. I have a wealth of knowledge on a wide range of financing options. I\'ve included below, the types of mortgage loans I specialize in:</p>
@@ -104,7 +106,7 @@ function my_options_shortcode ( $attributes, $content = null )
 		</ul>
 		<div id="info"></div>
 		<p>Purchasing a home and navigating your loan options can be a difficult task in this market. I can help make this simple and straightforward. I can also help with refinancing your current mortgage. This can be fantastic opportunity to gain immediate and long-term savings. It doesn\'t always mean a mountain of paperwork.</p>
-		<p>Learn more about the available <a href="/loan-options" target="_blank">loan options</a> available and <a href="https://secure.web-loans.com/secure.aspx?u=summitmortgage.lendingoutpost.com&amp;lo=13" target="_blank">apply today!</a></p>
+		<p>Learn more about the available <a href="/loan-options" target="_blank">loan options</a> available and <a href="' . $loanLink . '" target="_blank">apply today!</a></p>
 	';
 
 	$return = '

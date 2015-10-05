@@ -343,6 +343,12 @@ span.menu_slide, span.main_text {
   text-decoration: none;
   white-space: nowrap;
 }
+/*removed link, replace styling*/
+#services .service h3{
+  text-decoration: none;
+  white-space: nowrap!important;
+  font-weight: bold!important;
+}
 .service h3 a:hover {
   color: #777;
 }

@@ -20,16 +20,46 @@
 				$page_title = ( $blurb_custom_title = get_post_meta( get_the_ID(), 'Blurbtitle', true ) ) && '' != $blurb_custom_title ? $blurb_custom_title : get_the_title();
 				$page_permalink = ( $blurb_custom_permalink = get_post_meta( get_the_ID(), 'Blurblink', true ) ) && '' != $blurb_custom_permalink ? $blurb_custom_permalink : get_permalink();
 				$page_blurb_icon = get_post_meta( get_the_ID(), '_et_blurb_icon', true );
+				
+				$bucketLink = get_field('bucket_link');
 
 					echo '<div class="service' . ( $blurbs_number == $i ? ' last' : '' ) . ( '' != $page_blurb_icon ? ' blurb_icon' : '' ) . '">';
-
-				//if ( '' != $page_blurb_icon )
-					printf( '<div class="service-number"><a href="' . get_field( 'custom_link' ) . '"><span class="fa">'.get_field('custom_icon').'</span></a></div>',
+					
+					//if ( '' != $page_blurb_icon )
+					/*printf( '<div class="service-number"><a href="' . get_field( 'custom_link' ) . '"><span class="fa">'.get_field('custom_icon').'</span></a></div>',
 						esc_attr( $page_blurb_icon ),
 						esc_attr( $page_title )
-					);
+					);*/
+					
+					
+					if($bucketLink){
+						
+						printf( '<div class="service-number"><a href="' . get_field( 'custom_link' ) . '"><span class="fa">'.get_field('custom_icon').'</span></a></div><a href="' . $bucketLink . '"><h3>' . $page_title . '</h3></a>',
+						esc_attr( $page_blurb_icon ),
+						esc_attr( $page_title )
+						);
+					
+					}
 
-					echo '<h3>' . '<a href="' . get_field( 'custom_link' ) . '">' . $page_title . '</a>' . '</h3>';
+				
+					
+					else{
+						
+						printf( '<div class="service-number"><span class="fa">'.get_field('custom_icon').'</span></div>',
+						esc_attr( $page_blurb_icon ),
+						esc_attr( $page_title )
+						);
+						
+						echo '<h3>' . $page_title . '</h3>';
+						
+					}
+					
+					
+					
+					
+
+					//echo '<h3>' . '<a href="' . get_field( 'custom_link' ) . '">' . $page_title . '</a>' . '</h3>';
+					
 
 					if ( has_excerpt() ) the_excerpt();
 					else the_content( '' );
