@@ -1,0 +1,2337 @@
+/*
+Theme Name: Nine Child
+Description: Responsive MultiPurpose Theme
+Author: Moutheme
+Author URI: http://themeforest.net/user/moutheme
+Template: nine
+Version: 1.2.7
+License: GNU General Public License
+*/
+
+@import url("../nine/style.css");
+
+.home-box {
+position: relative;
+background-color: #d9d9d9;
+float:left;
+width: 80%;
+padding: 5px 5px 5px 5px; 
+margin-right: 5px;
+margin-bottom: 5px;
+font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+   
+}
+
+.more-button {
+position: relative;
+float: right;
+background-color: #e87c22;
+padding: 5px 5px 5px 5px; 
+font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px; 
+width: 9%; 
+text-align: center;
+}
+
+.more-button a {
+    color: black;
+}
+
+#page-title.hero-title h1 {
+line-height: 40px;
+padding-top: 20px;
+}
+
+#page-body-about {
+	 margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.About-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-NCBC {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.NCBC_.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-NCBC-2015 {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/08/NCBC-2015-HeaderREV.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-about .widget {
+margin-bottom: 38px;
+padding-top: 5px;
+}
+
+#page-body-kc {
+	 margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.KnowledgeCenter-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-chapter {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Chapters.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-members {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Membership-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-training {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Training-Events.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-foundation {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2015/08/foundation-header.png);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+.page-id-2557 #page-body-training {
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/09/training_classes.jpg);
+}
+
+.page-id-2559 #page-body-training {
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/09/training_webinars.jpg);
+}
+
+#page-body-certification {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Certification.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+
+.span9 {
+width: 700px;
+padding-top: 4px;
+}
+
+
+body {
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color: #000000;
+}
+
+,#footer h1, #footer h2, #footer h3, #footer h4, #footer h5 {
+    color: white;
+}
+
+.dot-list ul ul {
+    margin-top: 20px;
+}
+
+ol,
+ol li {
+    list-style: decimal !important;
+}
+
+/* social icons hacks */
+
+.header .s-linkedin,.header .s-youtube,.header .s-picasa,.header .s-twitter,.header .s-facebook {
+    visibility: hidden;
+    display: none;
+} 
+
+
+#footer > .container > .row > div {
+padding-top: 15px;
+padding-bottom: 22px;
+}
+
+.dot-list li ol li{
+background: url("") -5px 1px no-repeat;
+padding-left: 21px;
+}
+
+.menu > ul > li > a {
+float: left;
+padding: 0 9px;
+font-size: 24px;
+color: #000000;
+}
+
+.cap-text span {
+/*background: rgba(236,236,236,.5);*/
+background: transparent !important;
+color: #fff !important;
+width: 100%;
+margin-bottom: 0px;
+margin-left: 460px;
+margin-top: 0;
+display: block;
+float: left;
+clear: both;
+padding: 10px 5px 0px 5px;
+}
+
+.cap-text span p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cap-text {
+font-size: 30px;
+color: black;
+font-weight: 700; 
+line-height: 16px;
+margin-top: -12px !important;
+overflow: hidden;
+}
+
+.cap-button {
+    margin-left: 466px;
+}
+
+.cap-button a {
+    font-size: 27px;
+    padding: 5px 8px;
+}
+
+/* fix for the last slide in which contents are centered */
+
+.slides li:last-child .caption {
+    left: 0;
+    width: 100%;
+}
+
+.slides li:last-child .cap-container {
+    width: 100%;
+}
+
+.slides li:last-child .cap-text {
+    margin-top: -30px !important;
+}
+
+.slides li:last-child .cap-text span {
+    margin-left: 0 !important;
+    padding-top: 0;
+}
+
+.slides li:last-child .cap-text span p {
+    line-height: 1;
+    text-align: center;
+}
+
+.slides li:last-child .cap-button {
+    margin-left: 0;
+    text-align: center;
+}
+
+
+
+.pos-top-left {
+    left: 45px;
+}
+
+.one-fourth, .one-third, .one-second, .two-third, .three-fourth {
+float: left;
+margin: 0 20px 20px 0;
+}
+
+.sponsor {
+text-align: center;
+}
+
+#copyright {
+font-size: 18px;
+text-transform: none;
+}
+
+.cap-text {
+font-family: 'Oxygen', sans-serif; !important;
+}
+
+
+hr {
+background: #e1e1e1;
+border: none;
+height: 1px;
+clear: both;
+margin: 15px 0;
+}
+
+.one-fourth, .one-third, .one-second, .two-third, .three-fourth {
+float: left;
+margin: 0 20px 0px 0;
+}
+
+.page .hentry {
+margin-bottom: 0;
+padding-bottom: 25px;
+}
+
+.one-third .content {
+    line-height: 1.5em;
+}
+
+#page-title .breadcrumbs {
+    float: left;
+    display: block;
+
+}
+
+#page-title h1 {
+    visibility: hidden;
+}
+
+/*span span{
+    background: none !important;
+    padding: 0px 0px 5px !important;
+}*/
+
+/* removing white space in header elements */
+
+.top-bar {
+height: 18px;
+line-height: 36px;
+font-size: 11px;
+}
+
+#header {
+margin-bottom: 0px;
+position: relative;
+}
+
+#main-slider .flexslider {
+margin: 0 0 -60px;
+text-align: center;
+} 
+
+.type-icon {
+    visibility: hidden;
+    display: none;
+}
+
+/* forms */
+
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    color: #999999;
+    display: inline-block;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 9px;
+    padding: 0px !important;
+    vertical-align: middle;
+}
+
+.accent-col > div:first-child {
+    /*background-color: #e4ecf2 !important;*/
+}
+
+@media (min-width: 1001px) {
+
+    .menu-item-1066 {
+        margin-left: 9px; }
+
+    .menu > ul > li.menu-item-1066 > a,
+    .menu > ul > li.menu-item-1118 > a { background: #db8433; color: #fff; }
+
+    .menu > ul > li.menu-item-1066:hover > a,
+    .menu > ul > li.menu-item-1118:hover > a { background: #f7f7f7; color: #000; }
+
+}
+
+
+#gform_wrapper_1 input { margin-bottom: 0px !important; }
+
+#gform_wrapper_1 ul { margin-top: -10px !important; }
+
+#gform_wrapper_1 li { margin-top: -10px !important; }
+
+#gform_wrapper_1 .gform_footer { margin-top: 0 !important; }
+
+.gform_confirmation_wrapper {
+position: relative;
+top: -20px;
+}
+
+.sponsor_col { float: left; display: inline; }
+
+.sponsor_diamond { width: 500px; }
+
+.sponsor_platinum { width: 250px; }
+
+.orange { color: #db8433; }
+
+.blue .btn-color {
+    background-color: #006385;
+}
+
+.ui-widget-content a {
+color: #db8433 !important;
+}
+
+
+
+
+
+#footer p {
+    color: #fff;
+}
+
+#footer .i-large {
+    margin-left: -5px;
+}
+
+#footer .i-large li > a {
+    background-color: #32363E !important;
+}
+
+#footer .i-large li.s-facebook > a:hover {
+    background-color: #3B5998 !important;
+}
+
+#footer .i-large li.s-linkedin > a:hover {
+    background-color: #0180A9 !important;
+}
+
+#footer .i-large li.s-youtube > a:hover {
+    background-color: #C8302D !important;
+}
+
+
+
+#text-3 p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+#gform_wrapper_1 {
+    position: relative;
+}
+
+#gform_wrapper_1 input { margin-bottom: 0px !important; text-transform: uppercase; }
+
+#gform_wrapper_1 input[type="text"],
+#gform_wrapper_1 input[type="email"] {
+    background: none;
+    border: 1px solid #999;
+    color: #fff;
+    padding: 6px 0px 6px 4px  !important;
+}
+
+#gform_wrapper_1 label {
+    display: none;
+}
+
+
+#gform_wrapper_1 ul { margin-top: -10px !important; }
+
+#gform_wrapper_1 li { margin-top: -10px !important; }
+
+#gform_wrapper_1 .gform_footer { margin-top: 0 !important; }
+
+#gform_wrapper_1 #field_1_2 {
+	float: left;
+	width: 126px;
+}
+#gform_wrapper_1 #field_1_2 input {
+	float: left;
+    z-index: 10;
+    margin-top: 5px;
+    width: 100%;/*
+Theme Name: Nine Child
+Description: Responsive MultiPurpose Theme
+Author: Moutheme
+Author URI: http://themeforest.net/user/moutheme
+Template: nine
+Version: 1.2.7
+License: GNU General Public License
+*/
+
+@import url("../nine/style.css");
+
+.home-box {
+position: relative;
+background-color: #d9d9d9;
+float:left;
+width: 80%;
+padding: 5px 5px 5px 5px; 
+margin-right: 5px;
+margin-bottom: 5px;
+font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+   
+}
+
+.more-button {
+position: relative;
+float: right;
+background-color: #e87c22;
+padding: 5px 5px 5px 5px; 
+font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px; 
+width: 9%; 
+text-align: center;
+}
+
+.more-button a {
+    color: black;
+}
+
+#page-title.hero-title h1 {
+line-height: 40px;
+padding-top: 20px;
+}
+
+#page-body-about {
+	 margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.About-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-NCBC {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.NCBC_.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-NCBC-2015 {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/08/NCBC-2015-HeaderREV.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-about .widget {
+margin-bottom: 38px;
+padding-top: 5px;
+}
+
+#page-body-kc {
+	 margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.KnowledgeCenter-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-chapter {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Chapters.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-members {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Membership-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-training {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Training-Events.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+.page-id-2557 #page-body-training {
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/09/training_classes.jpg);
+}
+
+.page-id-2559 #page-body-training {
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/09/training_webinars.jpg);
+}
+
+#page-body-certification {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Certification.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+
+.span9 {
+width: 700px;
+padding-top: 4px;
+}
+
+
+body {
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color: #000000;
+}
+
+,#footer h1, #footer h2, #footer h3, #footer h4, #footer h5 {
+    color: white;
+}
+
+.dot-list ul ul {
+    margin-top: 20px;
+}
+
+ol,
+ol li {
+    list-style: decimal !important;
+}
+
+/* social icons hacks */
+
+.header .s-linkedin,.header .s-youtube,.header .s-picasa,.header .s-twitter,.header .s-facebook {
+    visibility: hidden;
+    display: none;
+} 
+
+
+#footer > .container > .row > div {
+padding-top: 15px;
+padding-bottom: 22px;
+}
+
+.dot-list li ol li{
+background: url("") -5px 1px no-repeat;
+padding-left: 21px;
+}
+
+.menu > ul > li > a {
+float: left;
+padding: 0 11px;
+font-size: 24px;
+color: #000000;
+}
+
+.cap-text span {
+/*background: rgba(236,236,236,.5);*/
+background: transparent !important;
+color: #fff !important;
+width: 100%;
+margin-bottom: 0px;
+margin-left: 460px;
+margin-top: 0;
+display: block;
+float: left;
+clear: both;
+padding: 10px 5px 0px 5px;
+}
+
+.cap-text span p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cap-text {
+font-size: 30px;
+color: black;
+font-weight: 700; 
+line-height: 16px;
+margin-top: -12px !important;
+overflow: hidden;
+}
+
+.cap-button {
+    margin-left: 466px;
+}
+
+.cap-button a {
+    font-size: 27px;
+    padding: 5px 8px;
+}
+
+/* fix for the last slide in which contents are centered */
+
+.slides li:last-child .caption {
+    left: 0;
+    width: 100%;
+}
+
+.slides li:last-child .cap-container {
+    width: 100%;
+}
+
+.slides li:last-child .cap-text {
+    margin-top: -30px !important;
+}
+
+.slides li:last-child .cap-text span {
+    margin-left: 0 !important;
+    padding-top: 0;
+}
+
+.slides li:last-child .cap-text span p {
+    line-height: 1;
+    text-align: center;
+}
+
+.slides li:last-child .cap-button {
+    margin-left: 0;
+    text-align: center;
+}
+
+
+
+.pos-top-left {
+    left: 45px;
+}
+
+.one-fourth, .one-third, .one-second, .two-third, .three-fourth {
+float: left;
+margin: 0 20px 20px 0;
+}
+
+.sponsor {
+text-align: center;
+}
+
+#copyright {
+font-size: 18px;
+text-transform: none;
+}
+
+.cap-text {
+font-family: 'Oxygen', sans-serif; !important;
+}
+
+
+hr {
+background: #e1e1e1;
+border: none;
+height: 1px;
+clear: both;
+margin: 15px 0;
+}
+
+.one-fourth, .one-third, .one-second, .two-third, .three-fourth {
+float: left;
+margin: 0 20px 0px 0;
+}
+
+.page .hentry {
+margin-bottom: 0;
+padding-bottom: 25px;
+}
+
+.one-third .content {
+    line-height: 1.5em;
+}
+
+#page-title .breadcrumbs {
+    float: left;
+    display: block;
+
+}
+
+#page-title h1 {
+    visibility: hidden;
+}
+
+/*span span{
+    background: none !important;
+    padding: 0px 0px 5px !important;
+}*/
+
+/* removing white space in header elements */
+
+.top-bar {
+height: 18px;
+line-height: 36px;
+font-size: 11px;
+}
+
+#header {
+margin-bottom: 0px;
+position: relative;
+}
+
+#main-slider .flexslider {
+margin: 0 0 -60px;
+text-align: center;
+} 
+
+.type-icon {
+    visibility: hidden;
+    display: none;
+}
+
+/* forms */
+
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    color: #999999;
+    display: inline-block;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 9px;
+    padding: 0px !important;
+    vertical-align: middle;
+}
+
+.accent-col > div:first-child {
+    /*background-color: #e4ecf2 !important;*/
+}
+
+@media (min-width: 1001px) {
+
+    .menu-item-1066 {
+        margin-left: 20px; }
+
+    .menu > ul > li.menu-item-1066 > a,
+    .menu > ul > li.menu-item-1118 > a { background: #db8433; color: #fff; }
+
+    .menu > ul > li.menu-item-1066:hover > a,
+    .menu > ul > li.menu-item-1118:hover > a { background: #f7f7f7; color: #000; }
+
+}
+
+
+#gform_wrapper_1 input { margin-bottom: 0px !important; }
+
+#gform_wrapper_1 ul { margin-top: -10px !important; }
+
+#gform_wrapper_1 li { margin-top: -10px !important; }
+
+#gform_wrapper_1 .gform_footer { margin-top: 0 !important; }
+
+.gform_confirmation_wrapper {
+position: relative;
+top: -20px;
+}
+
+.sponsor_col { float: left; display: inline; }
+
+.sponsor_diamond { width: 500px; }
+
+.sponsor_platinum { width: 250px; }
+
+.orange { color: #db8433; }
+
+.blue .btn-color {
+    background-color: #006385;
+}
+
+.ui-widget-content a {
+color: #db8433 !important;
+}
+
+
+
+
+
+#footer p {
+    color: #fff;
+}
+
+#footer .i-large {
+    margin-left: -5px;
+}
+
+#footer .i-large li > a {
+    background-color: #32363E !important;
+}
+
+#footer .i-large li.s-facebook > a:hover {
+    background-color: #3B5998 !important;
+}
+
+#footer .i-large li.s-linkedin > a:hover {
+    background-color: #0180A9 !important;
+}
+
+#footer .i-large li.s-youtube > a:hover {
+    background-color: #C8302D !important;
+}
+
+
+
+#text-3 p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+#gform_wrapper_1 {
+    position: relative;
+}
+
+#gform_wrapper_1 input { margin-bottom: 0px !important; text-transform: uppercase; }
+
+#gform_wrapper_1 input[type="text"],
+#gform_wrapper_1 input[type="email"] {
+    background: none;
+    border: 1px solid #999;
+    color: #fff;
+    padding: 6px 0px 6px 4px  !important;
+}
+
+#gform_wrapper_1 label {
+    display: none;
+}
+
+
+#gform_wrapper_1 ul { margin-top: -10px !important; }
+
+#gform_wrapper_1 li { margin-top: -10px !important; }
+
+#gform_wrapper_1 .gform_footer { margin-top: 0 !important; }
+
+#gform_wrapper_1 #field_1_2 {
+	float: left;
+	width: 126px;
+}
+#gform_wrapper_1 #field_1_2 input {
+	float: left;
+    z-index: 10;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#gform_wrapper_1 #field_1_3 {
+	float: right;
+	margin-top: -37px !important;
+	width: 47%;
+	margin-right:2.5%;
+}
+#gform_wrapper_1 #field_1_3 input {
+	float: right;
+	z-index: 10;
+	width: 100%;
+}
+
+#gform_wrapper_1 .gform_footer {
+    position: relative;
+    z-index: 99;
+}
+
+#gform_wrapper_1 #gform_submit_button_1 {
+    position: absolute;
+    right: 0;
+    bottom: 22px;
+    background: none;
+    border: none;
+    color: #fff;
+    z-index: 100;
+    padding: 6px 10px;
+}
+
+.gform_wrapper label.gfield_label+div.ginput_container {
+	overflow:visible;
+}
+
+.gform_wrapper {
+	max-width:100% !important;
+	margin-right:0px;
+}
+
+#gform_wrapper_1 #field_1_2 {
+  float: left;
+  width: 47% !important;
+}
+
+.gform_wrapper .ginput_complex.ginput_container.has_first_name.has_middle_name.no_last_name span, .gform_wrapper .ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span, .gform_wrapper .ginput_complex.ginput_container.no_first_name.has_middle_name.has_last_name span{
+	width: 48% !important;
+}
+
+.gform_wrapper .ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span.name_first {
+  margin-right: 1.6%;
+}
+
+#gform_wrapper_1 input[type="text"], #gform_wrapper_1 input[type="email"], #gform_wrapper_1 input[type="submit"] {
+	font-size:11px;
+}
+
+.sponsor_col { float: left; display: inline; }
+
+.sponsor_diamond { width: 500px; }
+
+.sponsor_platinum { width: 250px; }
+
+
+.orange { color: #db8433; }
+
+.newsletter_description { color: #fff; margin-bottom: 30px; }
+
+.more-button { display: none; }
+
+#post-666 .one-third {
+    position: relative;
+}
+
+#post-666 {
+	padding-top: 10px;
+}
+
+#post-666 .home-box { 
+    width: 97.3%; 
+    padding: 10px 0 10px 10px; 
+    position: absolute; 
+    top: 147px; 
+    font-size: 200%; 
+    background: url(images/image_title_bg.png) 0 0 repeat; 
+    color: #fff;
+}
+
+#footer .span3 { height: 170px !important; }
+
+#footer .span3:first-child {
+    background: #748eb8 url('images/ncbc_footer_image.jpg') 0 0 no-repeat;
+    background-size: cover;
+}
+
+#footer .accent-col > div:first-child {
+    height: 100%;
+    position: relative;
+}
+
+#footer .span3:first-child aside {
+    background: url('images/ncbc_logo.png') 35% 75% no-repeat;
+    color: #fff;
+    height: 100%;
+}
+
+#footer .span3:first-child aside a {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+}
+
+#footer .span3:first-child aside h3 {
+    color: #fff;
+}
+
+
+body.home article.page .one-third {
+    margin-right: 30px;
+}
+
+body.home article.page .one-third.last {
+    
+}
+
+.classes-list {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.classes-list li {
+    display: block;
+    list-style: none;
+}
+
+.left-side {
+    float: left;
+    width: 100%;
+}
+
+.right-side {
+    float: left;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.classes-list li:last-child .right-side {
+    padding-bottom: 25px;
+}
+
+
+.button-standard,
+.button-highlight {
+    background: #000;
+    color: #fff;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 8px 10px;
+}
+
+.button-standard:hover,
+.button-highlight:hover {
+    background: #db8433;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-highlight {
+    background: #db8433;
+    color: #fff;
+}
+
+.button-highlight:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.webinars {
+    clear: both;
+    display: block;
+    list-style: none;
+}
+
+.webinars li {
+    float: left;
+    height: 235px;
+    list-style: none;
+    position: relative;
+    width: 47%;
+}
+
+.webinars li:first-child {
+    margin-right: 3%;
+}
+
+.webinars li:last-child {
+    margin-right: 3%;
+}
+
+.webinars li strong {
+    text-transform: uppercase;
+}
+
+.webinars .buttons {
+    bottom: 30px;
+    left: 0;
+    position: absolute;
+}
+
+
+@media (max-width: 1257px) {
+
+    #post-666 .one-third {
+        /*width: 293px;*/
+		width: 31.3% !important;
+    }
+
+    #post-666 .home-box {
+        top: 109px;
+        width: 96.6%;
+    }
+
+    .webinars li {
+        height: 250px;
+    }
+
+}
+
+@media (min-width: 1258px) {
+
+    .cap-text {
+        margin-top: 14px !important;
+    }
+
+    .cap-text span {
+        margin-left: 590px;
+    }
+
+    .cap-button {
+        margin-left: 596px;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+
+}
+
+@media (max-width: 1001px) {
+
+    #post-666 .one-third {
+        /*width: 293px;*/
+		width: 31.3% !important;
+    }
+
+    .sc_clients .clients-carousel {
+        border-right: none;
+    }
+
+    .sc_clients .clients-carousel ul li {
+        float: none;
+    }
+
+    .webinars li {
+        height: 300px;
+    }
+
+    .cap-text {
+        margin-top: 18px !important;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .webinars li {
+        height: 250px;
+    }
+
+    #footer .span3:first-child {
+        background-image: none;
+    }
+
+    #footer .accent-col > div:first-child {
+        padding-top: 15px !important;
+    }
+
+    #footer .span3:first-child aside {
+        background-position: 50% 100%;
+        height: 145px;
+        margin-bottom: 0;
+    }
+
+    #footer .span3:first-child aside h3 {
+        margin-left: 33%;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 677px) {
+
+    .webinars li {
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 524px) {
+
+    .webinars li {
+        height: 300px;
+    }
+
+    .webinars .buttons a {
+        float: left;
+        font-size: 26px;
+        padding: 2px 5px;
+    }
+
+}
+
+@media (max-width: 505px) {
+
+    .webinars li {
+        height: 425px;
+    }
+
+}
+
+/* NCBC events page headers updates */
+
+h3.ui-widget-header {
+font-size: 1.6em !important;
+}
+
+.ui-widget-header {
+font-weight: normal !important;
+}
+
+
+#post-2685 .ui-widget-header {
+    border: none;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+#post-2685 .ui-widget-content {
+    border: none;
+ /*   background: #fff; */
+    color: #1e1b1d;
+}
+
+/* New Orange HR styles for NCBC events page */
+
+.hr-orange-small
+{
+background: #db8433;
+border: none;
+height: 1px;
+clear: both;
+margin: 15px 0;
+}
+
+.hr-orange-medium
+{
+background: #db8433;
+border: none;
+height: 10px;
+clear: both;
+margin: 15px 0;
+}
+
+.hr-orange-large
+{
+background: #db8433;
+border: none;
+height: 10px;
+clear: both;
+margin: 15px 0;
+}
+
+
+
+/******************************************************************************
+     Training events pages
+******************************************************************************/
+
+
+/* training events page (calendar) */
+
+body.page-id-224 #espresso_calendar {}
+
+body.page-id-224 #espresso_calendar .ui-state-default .ui-icon {
+    background-image: url('/wp-content/plugins/event-espresso/templates/css/themeroller/black-tie/images/ui-icons_222222_256x240.png') !important;
+    margin: -50% 0 0 0 !important;
+}
+
+body.page-id-224 #espresso_calendar .ui-icon-circle-triangle-w {
+    background-position: -97px 0 !important;
+}
+
+body.page-id-224 #espresso_calendar .ui-icon-circle-triangle-e {
+    background-position: -33px 0 !important;
+}
+
+body.page-id-224 #espresso_calendar .fc-header-title h2 {
+    font-size: 2.3em !important;
+}
+
+body.page-id-224 #espresso_calendar .fc-day-header,
+body.page-id-224 #espresso_calendar .ui-widget-header {
+    background: #D9843C !important;
+    color: #fff !important;
+    border-color: #ddd;
+    font-weight: bold !important;
+}
+
+body.page-id-224 #espresso_calendar .fc-button {
+    background: none !important;
+}
+
+body.page-id-224 .ui-tooltip-titlebar {
+    /*background: #f4f0ec url(images/ui-bg_inset-soft_100_f4f0ec_1x100.png) 50% bottom repeat-x !important;*/
+    background: #fff !important;
+    border-color: #ccc;
+    border-bottom: none;
+    color: #000 !important;
+    font-weight: bold !important;
+    height: 100%;
+}
+
+body.page-id-224 .ui-widget-content {
+    background: #fff !important;
+    border-top: none;
+    border-color: #ccc;
+    padding-bottom: 10px !important;
+}
+
+body.page-id-224 .fc-event-inner {
+    padding: 0 8px;
+}
+
+body.page-id-224 #espresso_calendar .fc-event-title {
+    padding-bottom: 0 !important;
+}
+
+body.page-id-224 #espresso_calendar .time-display-block {
+    padding-top: 0 !important;
+}
+
+body.page-id-224 .ui-widget {
+    font-family: inherit !important;
+    font-size: inherit;
+}
+
+body.page-id-224 a.reg-now-btn {
+    background: #D9843C !important;
+    border: 0 !important;
+    color: #fff !important;
+}
+
+body.page-id-224 #espresso_calendar:not(.ui-widget).calendar_fullsize .fc-day-number {
+    color: #000 !important;
+}
+
+body.page-id-224 .qtip-light {
+    color: #000 !important;
+}
+
+body.page-id-224 #espresso_calendar:not(.ui-widget) .fc-state-active, 
+body.page-id-224 #espresso_calendar:not(.ui-widget) .fc-state-hover, 
+body.page-id-224 #espresso_calendar:not(.ui-widget) .fc-state-hover .fc-text-arrow {
+    color: #000 !important;
+}
+
+body.page-id-224 #event_content {
+    font-family: Helvetica;
+}
+
+body.page-id-224 #espresso_calendar {
+    clear: both;
+    padding-top: 40px;
+}
+
+body.page-id-224 #espresso_calendar .fc-day-header {
+    background: #db8433;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 150%;
+}
+
+body.page-id-224 #event_wrapper {
+    font-size: 110%;
+}
+
+body.page-id-224 #event_wrapper .event_title {
+    font-weight: bold !important;
+    padding-left: 0 !important;
+}
+
+body.page-id-224 #event_wrapper .section-title {
+    font-weight: bold !important;
+}
+
+body.page-id-224 div.qtip_info {
+    text-align: center;
+}
+
+body.page-id-224 p.time_cal_qtip {
+    text-align: left;
+}
+
+body.page-id-224 .a_register_link {
+    background: #db8433 !important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+    border: 0;
+    color: #fff !important;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    margin-right: 15px !important;
+    margin-top: 10px !important;
+    padding: 6px 10px !important;
+    text-decoration: none !important;
+}
+
+body.page-id-224 .a_register_link:hover {
+    background: #000 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+
+/* training event detail page (aka registration form) */
+
+
+#event_espresso_registration_form ul.espresso-price-list li {
+	margin-left:0px;
+}
+
+.event_price span, .event_price ul {
+	float:left;
+}
+
+body.page-id-2230 .event_detail_left {
+    float: left;
+    width: 300px;
+}
+
+body.page-id-2230 .event_detail_right {
+    float: left;
+    width: 300px;
+}
+
+body.page-id-2230 a.reg-now-btn {
+    background: #D9843C !important;
+    border: 0 !important;
+    color: #fff !important;
+}
+
+body.page-id-2230 .event_description {
+    clear: both;
+    float: none;
+    padding-top: 15px;
+}
+
+body.page-id-2230 #event_content {
+    font-family: Helvetica;
+}
+
+body.page-id-2230 #event_content > .event_data {
+    float: left;
+    margin: 15px 1% 15px 0;
+    padding: 0;
+    width: 49%;
+}
+
+body.page-id-2230 #event_espresso_registration_form {
+    margin-top: 25px !important;
+}
+
+body.page-id-2230 #event_content > .event_data > h3,
+body.page-id-2230 #event_espresso_registration_form > h3 {
+    background: none !important;
+    border: 0 !important;
+    color: #F5AD66;
+    font-size: 175%;
+    padding: 0 14px;
+}
+
+body.page-id-2230 #event_espresso_registration_form > h3 {
+    padding-left: 5px;
+}
+
+body.page-id-2230 #event_content > .event_data > h3 a {
+    color: #F5AD66;
+}
+
+body.page-id-2230 #event_content > .event_data > div,
+body.page-id-2230 #event_espresso_registration_form .event_espresso_form_wrapper {
+    background: none !important;
+    border: 0 !important;
+    padding-top: 2px;
+}
+
+body.page-id-2230 #event_espresso_registration_form .event_espresso_form_wrapper {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body.page-id-2230 #event_espresso_registration_form .event_price_label,
+body.page-id-2230 #event_espresso_registration_form .event_price_value,
+body.page-id-2230 #event_espresso_registration_form .span_event_time_label,
+body.page-id-2230 #event_espresso_registration_form .span_event_time_value {
+    margin-left: 0 !important; }
+
+body.page-id-2230 #event_espresso_registration_form .event_price_label,
+body.page-id-2230 #event_espresso_registration_form .span_event_time_label {
+    font-weight: bold !important; }
+
+body.page-id-2230 #event_espresso_registration_form .span_event_time_label {
+    margin-right: 5px !important; }
+
+body.page-id-2230 #event_espresso_registration_form .event_time,
+body.page-id-2230 #event_espresso_registration_form .event_address {
+    clear: both;
+    float: none; }
+
+body.page-id-2230 #event_espresso_registration_form .section-title,
+body.page-id-2230 #event_espresso_registration_form .event_time {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+body.page-id-2230 #event_content .event-meta,
+body.page-id-2230 #event_content .section-title {
+    font-family: Helvetica;
+}
+
+body.page-id-2230 .a_register_link {
+    background: #db8433 !important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+    border: 0;
+    color: #fff !important;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    margin-right: 15px !important;
+    margin-top: 10px !important;
+    padding: 6px 10px !important;
+    text-decoration: none !important;
+}
+
+body.page-id-2230 .a_register_link:hover {
+    background: #000 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+body.page-id-2230 #event_espresso_registration_form {}
+
+body.page-id-2230 #event_espresso_registration_form .event_title {
+    font-size: 200% !important;
+    padding-bottom: 15px !important;
+    padding-left: 0 !important;
+}
+
+body.page-id-2230 #event_espresso_registration_form .event-registration-pending,
+body.page-id-2230 #event_espresso_registration_form .event-registration-closed {
+    display: none !important;
+}
+
+body.page-id-2230 #event_espresso_registration_form .contact-info {
+    display: none !important;
+}
+
+}
+
+#gform_wrapper_1 #field_1_3 {
+	float: right;
+	margin-top: -37px !important;
+	width: 46.8% !important;
+	margin-right:1px;
+}
+#gform_wrapper_1 #field_1_3 input {
+	float: right;
+	z-index: 10;
+	width: 100%;
+}
+
+#gform_wrapper_1 .gform_footer {
+    position: relative;
+    z-index: 99;
+}
+
+#gform_wrapper_1 #gform_submit_button_1 {
+    position: absolute;
+    right: 0;
+    bottom: 22px;
+    background: none;
+    border: none;
+    color: #fff;
+    z-index: 100;
+    padding: 6px 10px;
+}
+
+.gform_wrapper label.gfield_label+div.ginput_container {
+	overflow:visible;
+}
+
+.gform_wrapper {
+	max-width:100% !important;
+	margin-right:0px;
+}
+
+#gform_wrapper_1 #field_1_2 {
+  float: left;
+  width: 46.8% !important;
+}
+
+.gform_wrapper .ginput_complex.ginput_container.has_first_name.has_middle_name.no_last_name span, .gform_wrapper .ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span, .gform_wrapper .ginput_complex.ginput_container.no_first_name.has_middle_name.has_last_name span{
+	width: 48% !important;
+}
+
+.gform_wrapper .ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span.name_first {
+  margin-right: 1.6%;
+}
+
+#gform_wrapper_1 input[type="text"], #gform_wrapper_1 input[type="email"], #gform_wrapper_1 input[type="submit"] {
+	font-size:12px;
+}
+
+.sponsor_col { float: left; display: inline; }
+
+.sponsor_diamond { width: 500px; }
+
+.sponsor_platinum { width: 250px; }
+
+
+.orange { color: #db8433; }
+
+.newsletter_description { color: #fff; margin-bottom: 30px; }
+
+.more-button { display: none; }
+
+#post-666 .one-third {
+    position: relative;
+	overflow:hidden;
+}
+
+#post-666 {
+	padding-top: 10px;
+}
+
+#post-666 .home-box { 
+    width: 97.3%; 
+    padding: 10px 0 10px 10px; 
+    position: absolute; 
+    top: 145px; 
+    font-size: 200%; 
+    background: url(images/image_title_bg.png) 0 0 repeat; 
+    color: #fff;
+}
+
+#footer .span3 { height: 170px !important; }
+
+#footer .span3:first-child {
+    background: #748eb8 url('images/ncbc_footer_image.jpg') 0 0 no-repeat;
+    background-size: cover;
+}
+
+#footer .accent-col > div:first-child {
+    height: 100%;
+    position: relative;
+}
+
+#footer .span3:first-child aside {
+    background: url('images/ncbc_logo.png') 35% 75% no-repeat;
+    color: #fff;
+    height: 100%;
+}
+
+#footer .span3:first-child aside a {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+}
+
+#footer .span3:first-child aside h3 {
+    color: #fff;
+}
+
+
+body.home article.page .one-third {
+    /*margin-right: 30px;*/
+	margin-right: 3%;
+}
+
+body.home article.page .one-third.last {
+    
+}
+
+.classes-list {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.classes-list li {
+    display: block;
+    list-style: none;
+}
+
+.left-side {
+    float: left;
+    width: 100%;
+}
+
+.right-side {
+    float: left;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.classes-list li:last-child .right-side {
+    padding-bottom: 25px;
+}
+
+
+.button-standard,
+.button-highlight {
+    background: #000;
+    color: #fff;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 8px 10px;
+}
+
+.button-standard:hover,
+.button-highlight:hover {
+    background: #db8433;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-highlight {
+    background: #db8433;
+    color: #fff;
+}
+
+.button-highlight:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.webinars {
+    clear: both;
+    display: block;
+    list-style: none;
+}
+
+.webinars li {
+    float: left;
+    height: 235px;
+    list-style: none;
+    position: relative;
+    width: 47%;
+}
+
+.webinars li:first-child {
+    margin-right: 3%;
+}
+
+.webinars li:last-child {
+    margin-right: 3%;
+}
+
+.webinars li strong {
+    text-transform: uppercase;
+}
+
+.webinars .buttons {
+    bottom: 30px;
+    left: 0;
+    position: absolute;
+}
+
+
+@media (max-width: 1257px) {
+
+    #post-666 .one-third {
+        /*width: 293px;*/
+		width: 31.3% !important;
+    }
+
+    #post-666 .home-box {
+        top: 109px;
+        width: 96.6%;
+    }
+
+    .webinars li {
+        height: 250px;
+    }
+
+}
+
+@media (min-width: 1258px) {
+
+    .cap-text {
+        margin-top: 14px !important;
+    }
+
+    .cap-text span {
+        margin-left: 590px;
+    }
+
+    .cap-button {
+        margin-left: 596px;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+	
+    #post-666 .one-third {
+        /*width: 293px;*/
+		width: 31.3% !important;
+    }
+
+}
+
+@media (max-width: 1001px) {
+
+    #post-666 .one-third {
+        /*width: 293px;*/
+		width: 31.3% !important;
+    }
+	#post-666 .home-box {
+		top: 75px; 
+	}
+
+    .sc_clients .clients-carousel {
+        border-right: none;
+    }
+
+    .sc_clients .clients-carousel ul li {
+        float: none;
+    }
+
+    .webinars li {
+        height: 300px;
+    }
+
+    .cap-text {
+        margin-top: 18px !important;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+	
+	
+    #post-666 .one-third {
+        /*width: 293px;*/
+		min-width: 226px !important;
+    }
+
+    .webinars li {
+        height: 250px;
+    }
+
+    #footer .span3:first-child {
+        background-image: none;
+    }
+
+    #footer .accent-col > div:first-child {
+        padding-top: 15px !important;
+    }
+
+    #footer .span3:first-child aside {
+        background-position: 50% 100%;
+        height: 145px;
+        margin-bottom: 0;
+    }
+
+    #footer .span3:first-child aside h3 {
+        margin-left: 33%;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 677px) {
+
+    .webinars li {
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 524px) {
+	
+    #post-666 .one-third {
+        /*width: 293px;*/
+		min-width: 0px !important;
+		width:100% !important;
+    }
+	
+	#post-666 .home-box {
+		top: 95px; 
+	}
+
+    .webinars li {
+        height: 300px;
+    }
+
+    .webinars .buttons a {
+        float: left;
+        font-size: 26px;
+        padding: 2px 5px;
+    }
+
+}
+
+@media (max-width: 505px) {
+
+    .webinars li {
+        height: 425px;
+    }
+
+}
+
+/* NCBC events page headers updates */
+
+h3.ui-widget-header {
+font-size: 1.6em !important;
+}
+
+.ui-widget-header {
+font-weight: normal !important;
+}
+
+
+#post-2685 .ui-widget-header {
+    border: none;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+#post-2685 .ui-widget-content {
+    border: none;
+ /*   background: #fff; */
+    color: #1e1b1d;
+}
+
+/* New Orange HR styles for NCBC events page */
+
+.hr-orange-small
+{
+background: #db8433;
+border: none;
+height: 1px;
+clear: both;
+margin: 15px 0;
+}
+
+.hr-orange-medium
+{
+background: #db8433;
+border: none;
+height: 10px;
+clear: both;
+margin: 15px 0;
+}
+
+.hr-orange-large
+{
+background: #db8433;
+border: none;
+height: 10px;
+clear: both;
+margin: 15px 0;
+}
+
+
+
+/******************************************************************************
+     Training events pages
+******************************************************************************/
+
+
+/* training events page (calendar) */
+
+body.page-id-224 #espresso_calendar {}
+
+body.page-id-224 #espresso_calendar .ui-state-default .ui-icon {
+    background-image: url('/wp-content/plugins/event-espresso/templates/css/themeroller/black-tie/images/ui-icons_222222_256x240.png') !important;
+    margin: -50% 0 0 0 !important;
+}
+
+body.page-id-224 #espresso_calendar .ui-icon-circle-triangle-w {
+    background-position: -97px 0 !important;
+}
+
+body.page-id-224 #espresso_calendar .ui-icon-circle-triangle-e {
+    background-position: -33px 0 !important;
+}
+
+body.page-id-224 #espresso_calendar .fc-header-title h2 {
+    font-size: 2.3em !important;
+}
+
+body.page-id-224 #espresso_calendar .fc-day-header,
+body.page-id-224 #espresso_calendar .ui-widget-header {
+    background: #D9843C !important;
+    color: #fff !important;
+    border-color: #ddd;
+    font-weight: bold !important;
+}
+
+body.page-id-224 #espresso_calendar .fc-button {
+    background: none !important;
+}
+
+body.page-id-224 .ui-tooltip-titlebar {
+    /*background: #f4f0ec url(images/ui-bg_inset-soft_100_f4f0ec_1x100.png) 50% bottom repeat-x !important;*/
+    background: #fff !important;
+    border-color: #ccc;
+    border-bottom: none;
+    color: #000 !important;
+    font-weight: bold !important;
+    height: 100%;
+}
+
+body.page-id-224 .ui-widget-content {
+    background: #fff !important;
+    border-top: none;
+    border-color: #ccc;
+    padding-bottom: 10px !important;
+}
+
+body.page-id-224 .fc-event-inner {
+    padding: 0 8px;
+}
+
+body.page-id-224 #espresso_calendar .fc-event-title {
+    padding-bottom: 0 !important;
+}
+
+body.page-id-224 #espresso_calendar .time-display-block {
+    padding-top: 0 !important;
+}
+
+body.page-id-224 .ui-widget {
+    font-family: inherit !important;
+    font-size: inherit;
+}
+
+body.page-id-224 a.reg-now-btn {
+    background: #D9843C !important;
+    border: 0 !important;
+    color: #fff !important;
+}
+
+body.page-id-224 #espresso_calendar:not(.ui-widget).calendar_fullsize .fc-day-number {
+    color: #000 !important;
+}
+
+body.page-id-224 .qtip-light {
+    color: #000 !important;
+}
+
+body.page-id-224 #espresso_calendar:not(.ui-widget) .fc-state-active, 
+body.page-id-224 #espresso_calendar:not(.ui-widget) .fc-state-hover, 
+body.page-id-224 #espresso_calendar:not(.ui-widget) .fc-state-hover .fc-text-arrow {
+    color: #000 !important;
+}
+
+body.page-id-224 #event_content {
+    font-family: Helvetica;
+}
+
+body.page-id-224 #espresso_calendar {
+    clear: both;
+    padding-top: 40px;
+}
+
+body.page-id-224 #espresso_calendar .fc-day-header {
+    background: #db8433;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 150%;
+}
+
+body.page-id-224 #event_wrapper {
+    font-size: 110%;
+}
+
+body.page-id-224 #event_wrapper .event_title {
+    font-weight: bold !important;
+    padding-left: 0 !important;
+}
+
+body.page-id-224 #event_wrapper .section-title {
+    font-weight: bold !important;
+}
+
+body.page-id-224 div.qtip_info {
+    text-align: center;
+}
+
+body.page-id-224 p.time_cal_qtip {
+    text-align: left;
+}
+
+body.page-id-224 .a_register_link {
+    background: #db8433 !important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+    border: 0;
+    color: #fff !important;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    margin-right: 15px !important;
+    margin-top: 10px !important;
+    padding: 6px 10px !important;
+    text-decoration: none !important;
+}
+
+body.page-id-224 .a_register_link:hover {
+    background: #000 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+
+/* training event detail page (aka registration form) */
+
+body.page-id-2230 .event_detail_left {
+    float: left;
+    width: 300px;
+}
+
+body.page-id-2230 .event_detail_right {
+    float: left;
+    width: 300px;
+}
+
+body.page-id-2230 a.reg-now-btn {
+    background: #D9843C !important;
+    border: 0 !important;
+    color: #fff !important;
+}
+
+body.page-id-2230 .event_description {
+    clear: both;
+    float: none;
+    padding-top: 15px;
+}
+
+body.page-id-2230 #event_content {
+    font-family: Helvetica;
+}
+
+body.page-id-2230 #event_content > .event_data {
+    float: left;
+    margin: 15px 1% 15px 0;
+    padding: 0;
+    width: 49%;
+}
+
+body.page-id-2230 #event_espresso_registration_form {
+    margin-top: 25px !important;
+}
+
+body.page-id-2230 #event_content > .event_data > h3,
+body.page-id-2230 #event_espresso_registration_form > h3 {
+    background: none !important;
+    border: 0 !important;
+    color: #F5AD66;
+    font-size: 175%;
+    padding: 0 14px;
+}
+
+body.page-id-2230 #event_espresso_registration_form > h3 {
+    padding-left: 5px;
+}
+
+body.page-id-2230 #event_content > .event_data > h3 a {
+    color: #F5AD66;
+}
+
+body.page-id-2230 #event_content > .event_data > div,
+body.page-id-2230 #event_espresso_registration_form .event_espresso_form_wrapper {
+    background: none !important;
+    border: 0 !important;
+    padding-top: 2px;
+}
+
+body.page-id-2230 #event_espresso_registration_form .event_espresso_form_wrapper {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body.page-id-2230 #event_espresso_registration_form .event_price_label,
+body.page-id-2230 #event_espresso_registration_form .event_price_value,
+body.page-id-2230 #event_espresso_registration_form .span_event_time_label,
+body.page-id-2230 #event_espresso_registration_form .span_event_time_value {
+    margin-left: 0 !important; }
+
+body.page-id-2230 #event_espresso_registration_form .event_price_label,
+body.page-id-2230 #event_espresso_registration_form .span_event_time_label {
+    font-weight: bold !important; }
+
+body.page-id-2230 #event_espresso_registration_form .span_event_time_label {
+    margin-right: 5px !important; }
+
+body.page-id-2230 #event_espresso_registration_form .event_time,
+body.page-id-2230 #event_espresso_registration_form .event_address {
+    clear: both;
+    float: none; }
+
+body.page-id-2230 #event_espresso_registration_form .section-title,
+body.page-id-2230 #event_espresso_registration_form .event_time {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+body.page-id-2230 #event_content .event-meta,
+body.page-id-2230 #event_content .section-title {
+    font-family: Helvetica;
+}
+
+body.page-id-2230 .a_register_link {
+    background: #db8433 !important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+    border: 0;
+    color: #fff !important;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    margin-right: 15px !important;
+    margin-top: 10px !important;
+    padding: 6px 10px !important;
+    text-decoration: none !important;
+}
+
+body.page-id-2230 .a_register_link:hover {
+    background: #000 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+body.page-id-2230 #event_espresso_registration_form {}
+
+body.page-id-2230 #event_espresso_registration_form .event_title {
+    font-size: 200% !important;
+    padding-bottom: 15px !important;
+    padding-left: 0 !important;
+}
+
+body.page-id-2230 #event_espresso_registration_form .event-registration-pending,
+body.page-id-2230 #event_espresso_registration_form .event-registration-closed {
+    display: none !important;
+}
+
+body.page-id-2230 #event_espresso_registration_form .contact-info {
+    display: none !important;
+}

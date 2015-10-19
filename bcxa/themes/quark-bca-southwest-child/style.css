@@ -1,0 +1,487 @@
+/*
+ Theme Name:   Quark BCA Southwest Child
+ Theme URI:    http://www.bcxa.org/southwest/
+ Description:  Quark Child Theme
+ Author:       Leon Dnalguoh
+ Author URI:   http://houglandia.com
+ Template:     quark
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  quark-bca-southwest-child
+*/
+
+
+/* ----> GLOBAL <----*/
+body {
+	border-top:20px solid #db8433;
+}
+
+body, #wp-calendar caption, #wp-calendar th, #slogan, .wpcf7-not-valid-tip { 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	background-color:#25272d;
+	a: #db8433;
+} 	
+
+#wrapper {
+	background:url('http://www.bcxa.org/southwest/wp-content/themes/quark/images/faint-squares.jpg') top left repeat;
+}
+		
+@font-face {
+    font-family: 'dharma_gothic_elight';
+    src: url('font/dharma-gothic/dharmagothice-light-webfont.eot');
+    src: url('font/dharma-gothic/dharmagothice-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/dharma-gothic/dharmagothice-light-webfont.woff') format('woff'),
+         url('font/dharma-gothic/dharmagothice-light-webfont.ttf') format('truetype'),
+         url('font/dharma-gothic/dharmagothice-light-webfont.svg#dharma_gothic_elight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+			
+h1, h2, h3, h4, h5, h6, .menu > ul ul a, .nav-tabs, th, #wp-calendar caption, .progress-bar, .btn, .form-submit > #submit, .wpcf7-submit, .accordion-title, #filter a, 
+.direct-buttons a, cite.fn, label, .sc_testimonial .author, #page-title .breadcrumbs, .cap-text, .tp-caption.big_white, body .tp-button.blue, .wpcf7-form > p { 
+	font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+} 	
+			
+@font-face {
+    font-family: 'dharma_gothic_e_regularRg';
+    src: url('font/dharma-gothic/dharmagothice-regular-webfont.eot');
+    src: url('font/dharma-gothic/dharmagothice-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/dharma-gothic/dharmagothice-regular-webfont.woff') format('woff'),
+         url('font/dharma-gothic/dharmagothice-regular-webfont.ttf') format('truetype'),
+         url('font/dharma-gothic/dharmagothice-regular-webfont.svg#dharma_gothic_e_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+a.btn-lt-orange {
+	max-height:42px;
+	max-width:145px;
+	border-radius: 0px;
+	background:#e4a76e;
+	color:#ffffff !important;
+	background-image:none;
+	margin-bottom:0px !important;
+	padding:3px 20px;
+	font-size:32px !important;
+	line-height:40px;
+	border:0px none;
+	text-shadow:none;
+	text-decoration:none;
+	box-shadow:none;
+	display:inline-block;
+	font-family:"dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a.btn-lt-orange:hover {
+	background:#4e5257;
+	color:#fff !important;
+	background-image:none;
+	text-decoration:none !important;
+}
+
+a.btn-gray {
+	border-radius: 0px;
+	background:#4e5257;
+	color:#ffffff !important;
+	background-image:none;
+	padding:3px 20px;
+	font-size:32px !important;
+	line-height:40px;
+	border:0px none;
+	text-shadow:none;
+	text-decoration:none;
+	box-shadow:none;
+	display:inline-block;
+	font-family:"dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a.btn-gray:hover {
+	background:#e7e7e7;
+	color:#505050 !important;
+	background-image:none;
+	text-decoration:none;
+}
+
+
+input[type="submit"] {
+	border-radius: 0px;
+	background:#db8433;
+	color:#ffffff !important;
+	background-image:none;
+	padding:3px 20px;
+	font-size:32px !important;
+	line-height:40px;
+	/*padding:5px 32px;
+	font-size:32px !important;*/
+	border:0px none;
+	text-shadow:none;
+	text-decoration:none;
+	box-shadow:none;
+	display:inline-block;
+	font-family:"dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	margin-bottom: .8rem;
+}
+
+input[type="submit"]:hover {
+	background:#4e5257;
+	background-image:none;
+	text-decoration:none;
+}
+
+/* ----> HEADER SECTION <----*/
+
+#headercontainer {
+	background-image:url(images/header-background-1.jpg);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 335px;
+	background-position: center center;
+}
+
+#masthead, .site-title {
+	height:100%;
+}
+
+.site-title {
+	background-color:rgba(0,0,0,.5);
+	max-width:434px;
+	padding:14px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+}
+
+.banner {
+	display:none;
+}
+
+#wrapper {
+	http://www.bcxa.org/southwest/wp-content/uploads/sites/8/2015/05/faint-squares.jpg
+}
+
+/* ----> Navigation <----*/
+
+.main-navigation {
+	float:none;
+	margin-top:0px;
+}
+
+.main-navigation li {
+	margin-left:0px;
+	border-right:1px solid transparent;
+}
+
+.main-navigation li a {
+	display:inline-block;
+	min-width:113px;
+	padding:10px 0px;
+	color:#000000;
+	background:#e4a76e;
+	text-align:center;
+	font-size:26px;
+	font-family:"dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+.main-navigation li a:hover {
+	background:#db8433;
+	color:#fff;
+}
+
+
+
+.main-navigation li.current_page_item a {
+	color:#000;
+	background:#db8433;
+	color:#fff;
+}
+
+/* ----> BODY <----*/
+
+.entry-header {
+	margin-bottom:0px;
+}
+
+.entry-title {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:24px;
+	padding-bottom:0px;
+	color:#db8433;
+	background:#ffffff;
+	line-height:36px;
+}
+	
+.entry-content {
+	background:#ffffff;
+	padding:24px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+	border-bottom:13px solid #db8433;
+}
+
+article {
+	
+}
+
+/* ----> SIDEBAR <----*/
+
+#secondary {
+	color:#ffffff;
+	background:#db8433;
+	padding:15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+	margin-bottom:30px;
+}
+
+#secondary h3, #secondary a{
+	color:#ffffff;
+}
+
+#secondary a, #secondary a:visited {
+	font-size:13px;
+	color:#222222;
+	text-decoration:none;
+	margin-bottom:16px;
+	display:inline-block;
+}
+
+#secondary a:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.widget-area .widget {
+	margin-bottom:2rem;
+}
+
+#secondary ul {
+	margin-bottom:0px;
+}
+
+.widget-area .widget {
+	margin-bottom:1rem;
+}
+
+#secondary	aside:last-child, #secondary aside:last-child p {
+	margin-bottom:0px !important;
+}
+
+/* ----> Post / Events <---- */
+
+.site-content article {
+	background:#ffffff;
+}
+.comments-area article {
+	background:transparent;
+}
+
+.header-meta {
+	margin:12px 26px 0px 26px;
+}
+
+.comments-title {
+	font-size:1.8rem;
+}
+
+/* ----> FOOTER <---- */
+
+.site-footer {
+	padding:0px;
+	color:#ffffff
+}
+
+.site-footer a {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.site-footer a:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.site-footer h3 {
+	margin-top:16px;
+	color:#ffffff;
+	font-size:26px;
+}
+
+.site-footer .textwidget,  .site-footer .textwidget ul li{
+	font-size:13px;
+	line-height:16px;
+}
+
+.site-footer .textwidget ul {
+	margin-top:14px;
+}
+
+.widget_sp_image img {
+	width:100%;
+	height:auto;
+}
+
+.footer-form-col {
+	width:47%;
+	float:left;
+	margin-left:20px;
+}
+
+div.left-col {
+	margin-left:0px;
+}
+
+.footer-form-col input[type="text"], .footer-form-col input[type="tel"], .footer-form-col input[type="email"], .footer-form-col textarea {
+	width:100%;
+	border-radius: 0px;
+	padding:0.5rem;
+	color:#505050 !important;
+	border:0px none;
+}
+
+::-webkit-input-placeholder {
+   color: #505050;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #505050;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #505050;  
+}
+
+:-ms-input-placeholder {  
+   color: #505050;  
+}
+
+.footer-form-col textarea {
+	height:128px;
+	display:block;
+}
+
+.site-footer .grid_3_of_12 aside {
+	padding-left:12px;
+	box-sizing:border-box;
+}
+
+.wpcf7-form .footer-form-col p {
+	margin-bottom:.8rem;
+}
+
+.footer-form-col input[type="submit"] {
+	float:right;
+}
+
+.site-footer .widget-area .widget {
+	margin-bottom:0px;
+}
+
+.smallprint {
+	color:#fff;
+	font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	background:#25272d;
+	width:100%;
+	margin:0 0 0 0 !important;
+	max-width:none;
+}
+
+.smallprint p {
+	margin:0px;
+	/*margin-right:0px;*/
+	padding:8px 0px;
+	width:90%;
+	margin:0px auto;
+	max-width:1200px;
+}
+
+div.wpcf7-validation-errors {
+	display:none !important;
+}
+
+
+/* ----> MEDIA QUERIES <----*/
+
+
+@media only screen and (min-device-width: 768px){}
+	
+@media only screen and (max-width:1128px) {
+	footer .footer-form-col {
+		width:46.5%;
+	}
+}
+	
+@media only screen and (max-width:768px) {
+	.grid_8_of_12 {
+		width:100%;
+	}
+	
+	.grid_4_of_12 {
+		width:100%;
+		margin-left:0px;
+	}
+	
+	footer .grid_3_of_12, footer .grid_4_of_12, footer .grid_5_of_12, footer .grid_3_of_12 img {
+		width:100%;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:555px) {
+	footer .footer-form-col {
+		width:100%;
+		margin-left:0px;
+	}
+}
+
+@media only screen and (max-width:521px) {
+	.main-navigation li a {
+		width:100%;
+	}
+}
+
+/*--WILLIAM--*/
+
+hr {
+	background-color: #db8433;
+	border: 0;
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: 0rem;
+}
+
+
+/* unvisited link */
+.entry-content a:link {
+	color: #db8433;
+    text-decoration: none;
+}
+
+/* visited link */
+.entry-content a:visited {
+    color: #db8433;
+	text-decoration: none;
+}
+
+/* mouse over link */
+.entry-content a:hover {
+    color: #db8433;
+	text-decoration: underline;
+}
+
+/* selected link */
+.entry-content a:active {
+    color: #db8433;
+	text-decoration: none;
+}

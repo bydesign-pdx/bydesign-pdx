@@ -1,0 +1,783 @@
+/*
+Theme Name: Nine Child
+Description: Responsive MultiPurpose Theme
+Author: Moutheme
+Author URI: http://themeforest.net/user/moutheme
+Template: nine
+Version: 1.2.7
+License: GNU General Public License
+*/
+
+@import url("../nine/style.css");
+
+.home-box {
+position: relative;
+background-color: #d9d9d9;
+float:left;
+width: 80%;
+padding: 5px 5px 5px 5px; 
+margin-right: 5px;
+margin-bottom: 5px;
+font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+   
+}
+
+.more-button {
+position: relative;
+float: right;
+background-color: #e87c22;
+padding: 5px 5px 5px 5px; 
+font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px; 
+width: 9%; 
+text-align: center;
+}
+
+.more-button a {
+    color: black;
+}
+
+#page-title.hero-title h1 {
+line-height: 40px;
+padding-top: 20px;
+}
+
+#page-body-about {
+	 margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.About-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-NCBC {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.NCBC_.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-NCBC-2015 {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/08/NCBC-2015-HeaderREV.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-about .widget {
+margin-bottom: 38px;
+padding-top: 5px;
+}
+
+#page-body-kc {
+	 margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.KnowledgeCenter-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-chapter {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Chapters.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-members {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Membership-Image.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+#page-body-training {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Training-Events.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+.page-id-2557 #page-body-training {
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/09/training_classes.jpg);
+}
+
+.page-id-2559 #page-body-training {
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2014/09/training_webinars.jpg);
+}
+
+#page-body-certification {
+     margin: 0 auto;
+    background: #fff;
+    background-image: url(http://www.bcxa.org/wp-content/uploads/2013/10/T1.Certification.Image_.jpg);
+    background-repeat:no-repeat;
+    padding-top: 170px;
+}
+
+
+.span9 {
+width: 700px;
+padding-top: 4px;
+}
+
+
+body {
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color: #000000;
+}
+
+,#footer h1, #footer h2, #footer h3, #footer h4, #footer h5 {
+    color: white;
+}
+
+.dot-list ul ul {
+    margin-top: 20px;
+}
+
+ol,
+ol li {
+    list-style: decimal !important;
+}
+
+/* social icons hacks */
+
+.header .s-linkedin,.header .s-youtube,.header .s-picasa,.header .s-twitter,.header .s-facebook {
+    visibility: hidden;
+    display: none;
+} 
+
+
+#footer > .container > .row > div {
+padding-top: 15px;
+padding-bottom: 22px;
+}
+
+.dot-list li ol li{
+background: url("") -5px 1px no-repeat;
+padding-left: 21px;
+}
+
+.menu > ul > li > a {
+float: left;
+padding: 0 11px;
+font-size: 24px;
+color: #000000;
+}
+
+.cap-text span {
+/*background: rgba(236,236,236,.5);*/
+background: transparent !important;
+color: #fff !important;
+width: 100%;
+margin-bottom: 0px;
+margin-left: 460px;
+margin-top: 0;
+display: block;
+float: left;
+clear: both;
+padding: 10px 5px 0px 5px;
+}
+
+.cap-text span p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cap-text {
+font-size: 30px;
+color: black;
+font-weight: 700; 
+line-height: 16px;
+margin-top: -12px !important;
+overflow: hidden;
+}
+
+.cap-button {
+    margin-left: 466px;
+}
+
+.cap-button a {
+    font-size: 27px;
+    padding: 5px 8px;
+}
+
+/* fix for the last slide in which contents are centered */
+
+.slides li:last-child .caption {
+    left: 0;
+    width: 100%;
+}
+
+.slides li:last-child .cap-container {
+    width: 100%;
+}
+
+.slides li:last-child .cap-text {
+    margin-top: -30px !important;
+}
+
+.slides li:last-child .cap-text span {
+    margin-left: 0 !important;
+    padding-top: 0;
+}
+
+.slides li:last-child .cap-text span p {
+    line-height: 1;
+    text-align: center;
+}
+
+.slides li:last-child .cap-button {
+    margin-left: 0;
+    text-align: center;
+}
+
+
+
+.pos-top-left {
+    left: 45px;
+}
+
+.one-fourth, .one-third, .one-second, .two-third, .three-fourth {
+float: left;
+margin: 0 20px 20px 0;
+}
+
+.sponsor {
+text-align: center;
+}
+
+#copyright {
+font-size: 18px;
+text-transform: none;
+}
+
+.cap-text {
+font-family: 'Oxygen', sans-serif; !important;
+}
+
+
+hr {
+background: #e1e1e1;
+border: none;
+height: 1px;
+clear: both;
+margin: 15px 0;
+}
+
+.one-fourth, .one-third, .one-second, .two-third, .three-fourth {
+float: left;
+margin: 0 20px 0px 0;
+}
+
+.page .hentry {
+margin-bottom: 0;
+padding-bottom: 25px;
+}
+
+.one-third .content {
+    line-height: 1.5em;
+}
+
+#page-title .breadcrumbs {
+    float: left;
+    display: block;
+
+}
+
+#page-title h1 {
+    visibility: hidden;
+}
+
+span span{
+    background: none !important;
+    padding: 0px 0px 5px !important;
+}
+
+/* removing white space in header elements */
+
+.top-bar {
+height: 18px;
+line-height: 36px;
+font-size: 11px;
+}
+
+#header {
+margin-bottom: 0px;
+position: relative;
+}
+
+#main-slider .flexslider {
+margin: 0 0 -60px;
+text-align: center;
+} 
+
+.type-icon {
+    visibility: hidden;
+    display: none;
+}
+
+/* forms */
+
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    color: #999999;
+    display: inline-block;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 9px;
+    padding: 0px !important;
+    vertical-align: middle;
+}
+
+.accent-col > div:first-child {
+    /*background-color: #e4ecf2 !important;*/
+}
+
+@media (min-width: 1001px) {
+
+    .menu-item-1066 {
+        margin-left: 20px; }
+
+    .menu > ul > li.menu-item-1066 > a,
+    .menu > ul > li.menu-item-1118 > a { background: #db8433; color: #fff; }
+
+    .menu > ul > li.menu-item-1066:hover > a,
+    .menu > ul > li.menu-item-1118:hover > a { background: #f7f7f7; color: #000; }
+
+}
+
+
+#gform_wrapper_1 input { margin-bottom: 0px !important; }
+
+#gform_wrapper_1 ul { margin-top: -10px !important; }
+
+#gform_wrapper_1 li { margin-top: -10px !important; }
+
+#gform_wrapper_1 .gform_footer { margin-top: 0 !important; }
+
+.gform_confirmation_wrapper {
+position: relative;
+top: -20px;
+}
+
+.sponsor_col { float: left; display: inline; }
+
+.sponsor_diamond { width: 500px; }
+
+.sponsor_platinum { width: 250px; }
+
+.orange { color: #db8433; }
+
+.blue .btn-color {
+    background-color: #006385;
+}
+
+.ui-widget-content a {
+color: #db8433 !important;
+}
+
+
+
+
+
+#footer p {
+    color: #fff;
+}
+
+#footer .i-large {
+    margin-left: -5px;
+}
+
+#footer .i-large li > a {
+    background-color: #32363E !important;
+}
+
+#footer .i-large li.s-facebook > a:hover {
+    background-color: #3B5998 !important;
+}
+
+#footer .i-large li.s-linkedin > a:hover {
+    background-color: #0180A9 !important;
+}
+
+#footer .i-large li.s-youtube > a:hover {
+    background-color: #C8302D !important;
+}
+
+
+
+#text-3 p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+#gform_wrapper_1 {
+    position: relative;
+}
+
+#gform_wrapper_1 input { margin-bottom: 0px !important; text-transform: uppercase; }
+
+#gform_wrapper_1 input[type="text"],
+#gform_wrapper_1 input[type="email"] {
+    background: none;
+    border: 1px solid #999;
+    color: #fff;
+    padding: 6px 0px 6px 4px  !important;
+}
+
+#gform_wrapper_1 label {
+    display: none;
+}
+
+#gform_wrapper_1 ul { margin-top: -10px !important; }
+
+#gform_wrapper_1 li { margin-top: -10px !important; }
+
+#gform_wrapper_1 .gform_footer { margin-top: 0 !important; }
+
+#gform_wrapper_1 #field_1_2 {
+	float: left;
+	width: 126px;
+}
+#gform_wrapper_1 #field_1_2 input {
+	float: left;
+    z-index: 10;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#gform_wrapper_1 #field_1_3 {
+	float: right;
+	margin-top: -37px !important;
+	width: 124px;
+}
+#gform_wrapper_1 #field_1_3 input {
+	float: right;
+	z-index: 10;
+	margin-top: 5px;
+	width: 100%;
+}
+
+#gform_wrapper_1 .gform_footer {
+    position: relative;
+    z-index: 99;
+}
+
+#gform_wrapper_1 #gform_submit_button_1 {
+    position: absolute;
+    right: 0;
+    bottom: 26px;
+    background: none;
+    border: none;
+    color: #fff;
+    z-index: 100;
+    padding: 6px 10px;
+}
+
+
+.sponsor_col { float: left; display: inline; }
+
+.sponsor_diamond { width: 500px; }
+
+.sponsor_platinum { width: 250px; }
+
+
+.orange { color: #db8433; }
+
+.newsletter_description { color: #fff; margin-bottom: 30px; }
+
+.more-button { display: none; }
+
+#post-666 .one-third {
+    position: relative;
+}
+
+#post-666 {
+	padding-top: 10px;
+}
+
+#post-666 .home-box { 
+    width: 97.3%; 
+    padding: 10px 0 10px 10px; 
+    position: absolute; 
+    top: 147px; 
+    font-size: 200%; 
+    background: url(images/image_title_bg.png) 0 0 repeat; 
+    color: #fff;
+}
+
+#footer .span3 { height: 170px !important; }
+
+#footer .span3:first-child {
+    background: #748eb8 url('images/ncbc_footer_image.jpg') 0 0 no-repeat;
+    background-size: cover;
+}
+
+#footer .accent-col > div:first-child {
+    height: 100%;
+    position: relative;
+}
+
+#footer .span3:first-child aside {
+    background: url('images/ncbc_logo.png') 35% 75% no-repeat;
+    color: #fff;
+    height: 100%;
+}
+
+#footer .span3:first-child aside a {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+}
+
+#footer .span3:first-child aside h3 {
+    color: #fff;
+}
+
+
+body.home article.page .one-third {
+    margin-right: 30px;
+}
+
+body.home article.page .one-third.last {
+    
+}
+
+.classes-list {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.classes-list li {
+    display: block;
+    list-style: none;
+}
+
+.left-side {
+    float: left;
+    width: 10%;
+}
+
+.right-side {
+    float: left;
+    padding-bottom: 10px;
+    width: 90%;
+}
+
+.classes-list li:last-child .right-side {
+    padding-bottom: 25px;
+}
+
+
+.button-standard,
+.button-highlight {
+    background: #000;
+    color: #fff;
+    font-family: "dharma_gothic_elight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 8px 10px;
+}
+
+.button-standard:hover,
+.button-highlight:hover {
+    background: #db8433;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-highlight {
+    background: #db8433;
+    color: #fff;
+}
+
+.button-highlight:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.webinars {
+    clear: both;
+    display: block;
+    list-style: none;
+}
+
+.webinars li {
+    float: left;
+    height: 235px;
+    list-style: none;
+    position: relative;
+    width: 47%;
+}
+
+.webinars li:first-child {
+    margin-right: 3%;
+}
+
+.webinars li:last-child {
+    margin-right: 3%;
+}
+
+.webinars li strong {
+    text-transform: uppercase;
+}
+
+.webinars .buttons {
+    bottom: 30px;
+    left: 0;
+    position: absolute;
+}
+
+
+@media (max-width: 1257px) {
+
+    #post-666 .one-third {
+        width: 293px;
+    }
+
+    #post-666 .home-box {
+        top: 109px;
+        width: 96.6%;
+    }
+
+    .webinars li {
+        height: 250px;
+    }
+
+}
+
+@media (min-width: 1258px) {
+
+    .cap-text {
+        margin-top: 14px !important;
+    }
+
+    .cap-text span {
+        margin-left: 590px;
+    }
+
+    .cap-button {
+        margin-left: 596px;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+
+}
+
+@media (max-width: 1001px) {
+
+    #post-666 .one-third {
+        width: 293px;
+    }
+
+    .sc_clients .clients-carousel {
+        border-right: none;
+    }
+
+    .sc_clients .clients-carousel ul li {
+        float: none;
+    }
+
+    .webinars li {
+        height: 300px;
+    }
+
+    .cap-text {
+        margin-top: 18px !important;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .webinars li {
+        height: 250px;
+    }
+
+    #footer .span3:first-child {
+        background-image: none;
+    }
+
+    #footer .accent-col > div:first-child {
+        padding-top: 15px !important;
+    }
+
+    #footer .span3:first-child aside {
+        background-position: 50% 100%;
+        height: 145px;
+        margin-bottom: 0;
+    }
+
+    #footer .span3:first-child aside h3 {
+        margin-left: 33%;
+    }
+
+    .slides li:last-child .cap-text {
+       margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 677px) {
+
+    .webinars li {
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 524px) {
+
+    .webinars li {
+        height: 300px;
+    }
+
+    .webinars .buttons a {
+        float: left;
+        font-size: 26px;
+        padding: 2px 5px;
+    }
+
+}
+
+@media (max-width: 505px) {
+
+    .webinars li {
+        height: 425px;
+    }
+
+}
+
+/* NCBC events page headers updates */
+
+h3.ui-widget-header {
+font-size: 1.6em !important;
+}
+
+.ui-widget-header {
+font-weight: normal !important;
+}
+
