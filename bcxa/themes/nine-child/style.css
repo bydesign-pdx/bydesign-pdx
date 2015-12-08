@@ -1010,7 +1010,7 @@ color: #db8433 !important;
     color: #fff;
 }
 
-#footer .span3 { height: 170px !important; }
+#footer .span3 { /*height: 170px !important; */}
 
 #footer .span3:first-child {
     background: #748eb8 url('images/ncbc_footer_image.jpg') 0 0 no-repeat;
@@ -1023,7 +1023,8 @@ color: #db8433 !important;
 }
 
 #footer .span3:first-child aside {
-    background: url('images/ncbc_logo.png') 35% 75% no-repeat;
+    /*background: url('images/ncbc_logo.png') 35% 75% no-repeat;*/
+	background: url('images/ncbc_logo.png') 35% 50% no-repeat;
     color: #fff;
     height: 100%;
 }
@@ -1794,7 +1795,7 @@ body .sidebar-orange-container #gform_wrapper_1 #gform_submit_button_1 {
 	bottom:0px;
 }
 
-#footer .span3 { height: 170px !important; }
+#footer .span3 { /*height: 170px !important; */}
 
 #footer .span3:first-child {
     background: #748eb8 url('images/ncbc_footer_image.jpg') 0 0 no-repeat;
@@ -1807,7 +1808,7 @@ body .sidebar-orange-container #gform_wrapper_1 #gform_submit_button_1 {
 }
 
 #footer .span3:first-child aside {
-    background: url('images/ncbc_logo.png') 35% 75% no-repeat;
+    background: url('images/ncbc_logo.png') 35% 50% no-repeat;
     color: #fff;
     height: 100%;
 }
@@ -2084,6 +2085,7 @@ body.home article.page .one-third.last {
 
 }
 
+
 @media (max-width: 480px) {
 	#post-666 .one-third {
 		min-width:440px !important;
@@ -2093,6 +2095,7 @@ body.home article.page .one-third.last {
 		top: 182px;
 	}
 }
+
 
 @media (max-width: 414px) {
 	#post-666 .one-third {
@@ -2104,6 +2107,7 @@ body.home article.page .one-third.last {
 	}
 }
 
+
 @media (max-width: 375px) {
 	#post-666 .home-box {
 		top: 130px; 
@@ -2113,6 +2117,8 @@ body.home article.page .one-third.last {
 		min-width:335px !important;
 	}
 }
+
+
 
 @media (max-width: 320px) {
 	
@@ -2473,3 +2479,192 @@ body.page-id-2230 #event_espresso_registration_form .event-registration-closed {
 body.page-id-2230 #event_espresso_registration_form .contact-info {
     display: none !important;
 }
+
+
+/* responsive fixes */
+
+.page-id-666 .accent-col > div:first-child .widget {
+    margin-right: 0!important;
+}
+
+@media (max-width: 1001px){
+	#main-slider {
+		display: none;
+		visibility: hidden;
+	}
+	
+	#footer .span3:first-child aside {
+		background: url('images/ncbc_logo.png') 0% 50% no-repeat!important;
+		min-height: 300px;
+	
+	}
+}
+
+@media (min-width: 1002px){#footer .span3:first-child aside {min-height: 280px;}}
+
+@media (max-width: 767px){
+	#footer .widget {
+		margin-bottom: 0!important;
+	}
+
+	#post-666 .one-third {
+        /*width: 293px;*/
+		min-width: 226px !important;
+    }
+	
+	.span9 .one-second {
+		width: 340px!important;
+	}
+	
+	#footer .span3:first-child aside {
+		min-height: 0!important;
+		background: url('images/ncbc_logo.png') 50% 50% no-repeat!important;
+	}
+	
+}
+
+@media (max-width: 375px){#post-666 .one-third {min-width: 0!important;}}
+@media (max-width: 480px){#post-666 .one-third {min-width: 0!important;}}
+@media (max-width: 524px){#post-666 .one-third {min-width: 0!important;}}
+@media (max-width: 505px){#post-666 .one-third {min-width: 0!important;}}
+@media (max-width: 414px){#post-666 .one-third {min-width: 0!important;}}
+@media (max-width: 320px){#post-666 .one-third {min-width: 0!important;}}
+
+#post-666 .home-box{
+	bottom: 38px!important;
+	top: auto!important;
+	position: relative!important;
+	margin-bottom:-20px!important;
+}
+
+.page-id-666 #main-slider .flex-direction-nav li{
+	margin: -72px 0px 0 0!important;	
+}
+
+.page-id-666 #main-slider .flex-direction-nav li:first-child{
+	margin-right:0!important;
+}
+
+@media (min-width: 768px) and (max-width: 1001px){
+	.page-id-666 #sticky-nav, #header, .page-wrap {
+		width: 100%;
+	}
+	
+}
+
+/* actually, the prev & next links don't work */
+.page-id-666 .flex-prev, .page-id-666 .flex-next{
+	display:none!important;	
+}
+
+.ginput_container_email, .ginput_container_text{
+	border: 1px solid #999;
+    border-top-color: rgb(153, 153, 153);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(153, 153, 153);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(153, 153, 153);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(153, 153, 153);
+    border-left-style: solid;
+    border-left-width: 1px;
+	width: 100%;
+    display: inline-block;
+	margin-top:0!important;
+	width:99.6%!important;
+}
+	
+.ginput_container_email #input_1_2, #input_1_3{
+	margin-top:0px;
+	border:none!important;
+	width:auto!important;
+}
+
+#input_1_1_6_container{
+	padding-top:0!important;	
+}
+
+#field_1_2 .ginput_container_email{
+	margin-top:0!important;	
+}
+
+#input_1_1_3_container, #input_1_1_6_container, #field_1_2, #field_1_3, #gform_wrapper_1 #field_1_2, #gform_wrapper_1 #field_1_3{
+	width:100%!important;
+	margin:0!important;
+	float:none!important;
+	clear:both!important;
+}
+
+#gform_wrapper_1 #field_1_3 input{
+	float:none;	
+}
+
+#field_1_3{
+	display:table;	
+}
+
+#gform_wrapper_1 #field_1_2 input{
+	margin-top:0!important;	
+}
+
+@media (min-width: 600px) and (max-width: 787px){
+	#input_1_1_3, #input_1_1_6{
+		width:99%;	
+	}
+	
+	.ginput_container_email, .ginput_container_text{
+		width:99.6%!important;
+	}
+}
+
+@media (max-width: 600px){
+	#input_1_1_3, #input_1_1_6{
+		width:98%!important;	
+	}
+	
+	.ginput_container_email, .ginput_container_text{
+		width:99%!important;
+	}
+}
+
+@media (max-width: 320px){
+	#input_1_1_3, #input_1_1_6{
+		width:98%!important;	
+	}
+	
+	.ginput_container_email, .ginput_container_text{
+		width:99%!important;
+	}
+}
+
+@media (max-width: 319px){
+	#input_1_1_3, #input_1_1_6 {
+		width: 97%!important;
+	}
+}
+
+@media (min-width: 525px) and (max-width: 767px){
+	#post-666 .one-third {
+		min-width: 0!important;
+		margin:0!important;
+		width:48.5%!important;
+		
+	}
+	
+	#post-666 .one-third:first-of-type {
+		margin-right:3%!important;
+	}
+}
+
+#main-slider .flex-control-nav li {
+    list-style-type: none !important;
+}
+
+input {
+    -webkit-appearance: none!important;
+    border-radius: 0!important;
+}
+

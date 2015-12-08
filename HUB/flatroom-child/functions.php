@@ -106,7 +106,7 @@ function my_options_shortcode ( $attributes, $content = null )
 		</ul>
 		<div id="info"></div>
 		<p>Purchasing a home and navigating your loan options can be a difficult task in this market. I can help make this simple and straightforward. I can also help with refinancing your current mortgage. This can be fantastic opportunity to gain immediate and long-term savings. It doesn\'t always mean a mountain of paperwork.</p>
-		<p>Learn more about the available <a href="/loan-options" target="_blank">loan options</a> available and <a href="' . $loanLink . '" target="_blank">apply today!</a></p>
+		<p>Learn more about available <a href="/loan-options" target="_blank">loan options</a> and <a href="' . $loanLink . '" target="_blank">apply today!</a></p>
 	';
 
 	$return = '
@@ -306,9 +306,9 @@ function my_videos_shortcode ( $attributes, $content )
 	$title = isset($attributes['title']) ? ucwords($attributes['title']) : 'Videos';
 
 	$return = '
-		<div id="headVideo" class="shortcode properties-shortcode carousel-box videos">
+		<div class="shortcode properties-shortcode carousel-box videos">
 
-			<h3 class="shortcode-title fa fa-video-camera">'.$title.'</h3>
+			<h3 id="headVideo" class="shortcode-title fa fa-video-camera">'.$title.'</h3>
 
 			<div class="row">
 				<a href="#" class="prev-next prev">&#8249;</a>
